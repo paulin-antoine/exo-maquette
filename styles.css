@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#container {
+
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+
+    list-style: none;
+    padding-left: 30px;
+}
