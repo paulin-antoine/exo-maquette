@@ -115,3 +115,38 @@ nav li {
     text-align: center;
     font-weight: 300;
 }
+footer{
+    background-color: #5b359d;
+    padding-top:18px;
+}
+#copyright{
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: 400;
+
+}
+#Icons{
+    display:flex;
+    justify-content: center;
+}
+
+#Icons i{
+    color: rgb(255, 255,255,.6);
+    margin: 0 40px 0 40px;
+    font-size: 30px;
+
+}
+#footerContent{
+    display: flex;
+    justify-content: space-around;
+}
+.footerColumn h3{
+    color: rgb(255, 255,255,.6);;
+    margin-top:30px;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+.footerColumn li, .footerColumn p, .footerColumn p ::marker{
+    color:white;
+}
