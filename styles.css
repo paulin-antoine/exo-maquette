@@ -31,3 +31,87 @@ nav li {
     list-style: none;
     padding-left: 30px;
 }
+
+#Banniere {
+    height: 450px;
+    position: relative;
+    
+
+}
+#BanniereImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+#BanniereImg img{
+    object-fit: cover;
+}
+
+#BanniereContent {
+    width: 100%;
+    height: 100%;
+
+    position: absolute; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+
+}
+#BanniereContentLogo{
+    width:200px;
+}
+#BanniereContent h1 {
+    color: white;
+    font-weight: 400;
+}
+#Presentation{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#Prez p{
+    font-size: 1.4em;
+    text-align: center;
+    color: rgb(87, 87,87);
+}
+#Prez, #Skills{
+    max-width: 800px;
+    margin-top: 30px;
+}
+#Skills{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#Skills article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+#Skills h2{
+    text-align: center;
+    font-size: 1.4em;
+    text-transform: uppercase; /*Permet de mettre en majuscule tout le texte*/
+    font-weight:400;
+}
+#Skills p{
+    text-align: center;
+    font-size: 0.8em;
+}
+#temoignage{
+    max-width: 600px;
+    margin-top: 50px;
+    color: rgb(87, 87,87);
+}
+.temoignageDescription  {
+    text-align: center;
+    font-size: 1.3em;
+}
+.temoignageAuteur {
+    
+    text-align: center;
+    font-weight: 300;
+}
